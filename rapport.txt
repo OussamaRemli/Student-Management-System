@@ -1,0 +1,31 @@
+projet réalisé par : Oussama Remli  & Mohammed Oustad
+
+Ce rapport présente le projet de Gestion des Étudiants, une application de bureau développée en utilisant JavaFX.
+
+Le projet de Gestion des Étudiants consiste à créer une application permettant  le gestion les informations des étudiants 
+
+au sein de l'école . 
+
+Les fonctionnalités du projet :
+
+-Inscription des étudiants : L'application permet de saisir les informations des étudiants, y compris leur nom, prénom,    CNE et adresse e-mail. Ces données sont ensuite enregistrées dans une base de données.
+
+-Liste des étudiants : L'application permet d'afficher une liste de tous les étudiants enregistrés.
+
+-Mise à jour des informations : Les utilisateurs peuvent mettre à jour les informations d'un étudiant existant.
+
+-Suppression des étudiants : L'application offre la possibilité de supprimer un étudiant de la base de données. 
+
+-Impression des informations : L'application permet de générer une fiche d'informations pdf pour un étudiant sélectionné.
+
+Technologies utilisées :
+
+Le projet d'utilise les technologies suivantes :
+
+JavaFX :  pour la création d'interfaces utilisateur  interactives.
+
+MySQL  :  pour la gestion des données. 
+
+CSS    : Utilisé pour la mise en forme et le style des éléments graphiques de l'application.
+
+Le projet de Gestion des Étudiants, développé avec JavaFX, constitue une solution visant à optimiser la gestion des informations étudiantes.
