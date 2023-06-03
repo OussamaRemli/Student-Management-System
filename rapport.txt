@@ -20,7 +20,7 @@ Les fonctionnalités du projet :
 
 Technologies utilisées :
 
-Le projet d'utilise les technologies suivantes :
+Le projet utilise les technologies suivantes :
 
 JavaFX :  pour la création d'interfaces utilisateur  interactives.
 
