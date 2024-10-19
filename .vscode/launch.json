@@ -1,0 +1,23 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "etudaint_projet_85fd8194",
+            "vmArgs": "--module-path \"C:/java/javafx-sdk-17.0.6/lib\" --add-modules javafx.controls,javafx.fxml"
+
+        }
+    ]
+}
