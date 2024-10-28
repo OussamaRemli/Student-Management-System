@@ -32,11 +32,11 @@ This JavaFX-based desktop application allows users to manage a list of students,
 ```bash
 git clone https://github.com/OussamaRemli/Student-Management-System.git
 cd Student-Management-System
-
+```
 ### Database Setup
 
 1. Ensure your database is set up and configured as specified in `database/config`.
-2. Create a table named `etudiant` with columns for `firstname`, `lastname`, `identifiant`, and `email`.
+2. Create a table named `etudiant` with columns for `firstname`, `lastname`, `identifiant`, and `email`. 
 
 ### Configure Database Connection
 
