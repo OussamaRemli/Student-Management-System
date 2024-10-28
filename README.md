@@ -16,7 +16,7 @@ A JavaFX desktop application designed for managing student registration in a sch
 - **JavaFX** - For the user interface
 - **MySQL** - For data storage
 - **JDBC** - For database connection
-- **PDF Library** (like iText) - For creating PDF reports
+- **PDF Library** () - For creating PDF reports
 
 ## Installation
 
