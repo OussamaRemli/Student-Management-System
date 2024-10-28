@@ -30,8 +30,8 @@ This JavaFX-based desktop application allows users to manage a list of students,
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/StudentManagementApp.git
-cd StudentManagementApp
+git clone https://github.com/OussamaRemli/Student-Management-System.git
+cd Student-Management-System
 
 ### Database Setup
 
