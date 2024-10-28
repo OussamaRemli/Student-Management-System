@@ -1,76 +1,48 @@
-make well presented . don't go in details code please : 
-# Student Management System
+# Student Management JavaFX Application
 
-## Overview
-
-A JavaFX desktop application designed for managing student registration in a school setting. This mini-project showcases essential components of a school management system, including a user-friendly JavaFX interface, seamless integration with a MySQL database for data storage, and PDF generation capabilities for exporting student records.
+This JavaFX-based desktop application allows users to manage a list of students, supporting operations such as adding, viewing, updating, deleting, and printing student details. It connects to a database for data storage and retrieval.
 
 ## Features
 
-- **Student Registration**: Register new students with basic details.
-- **Database Storage**: Save and retrieve data using MySQL.
-- **PDF Generation**: Export student records as PDF files.
+- **Add New Students**: Form for adding student details (first name, last name, CNE, email).
+- **View Student List**: Table view displaying the list of students stored in the database.
+- **Update Student Information**: Edit and save updates to a student's details.
+- **Delete Students**: Remove a student from the database by CNE.
+- **Print Student Information**: Print a formatted student record using the system's default printer.
+- **Data Validation**: Validate email addresses and ensure unique CNE values for each student.
 
 ## Technologies Used
 
-- **JavaFX** - For the user interface
-- **MySQL** - For data storage
-- **JDBC** - For database connection
-- **PDF Library** () - For creating PDF reports
+- **Java**: Core programming language.
+- **JavaFX**: UI toolkit for building modern desktop applications.
+- **JDBC**: For database connectivity.
+- **CSS**: Custom stylesheet for JavaFX components.
+
+## Prerequisites
+
+- Java Development Kit (JDK) 8 or later
+- JavaFX SDK
+- A compatible database (configured in the config class)
+- IDE with JavaFX support (e.g., IntelliJ IDEA, Eclipse)
 
 ## Installation
 
-1. **Clone the Repository**
-   
-bash
-   git clone https://github.com/your-repo/student-registration-system.git
-   cd student-registration-system
-2. **Set Up the MySQL Database**
-   - Open MySQL and run the SQL script to create the database and tables:
-sql
-     CREATE DATABASE student_registration;
-     USE student_registration;
+### Clone the Repository
 
-     CREATE TABLE students (
-         id INT PRIMARY KEY AUTO_INCREMENT,
-         name VARCHAR(100),
-         age INT,
-         grade VARCHAR(10),
-         registration_date DATE
-     );
-     
-3. **Configure Database Connection**
-   - Open the Java source code and update the database connection settings:
-java
-     String url = "jdbc:mysql://localhost:3306/student_registration";
-     String username = "your_database_username";
-     String password = "your_database_password";
-     
-4. **Add PDF Library**  
-   - Download and add a PDF generation library (e.g., iText) to the project’s library or `lib` folder to support PDF exports.
+```bash
+git clone https://github.com/yourusername/StudentManagementApp.git
+cd StudentManagementApp
 
-5. **Run the Application**
-   - You can run the project through your IDE (like IntelliJ IDEA or Eclipse), or using Maven with the command:
-bash
-     mvn javafx:run
-     
-## Usage
+### Database Setup
 
-1. **Launch the Application**
-   - Open the application by running `Main.java`.
+1. Ensure your database is set up and configured as specified in `database/config`.
+2. Create a table named `etudiant` with columns for `firstname`, `lastname`, `identifiant`, and `email`.
 
-2. **Register Students**
-   - Use the registration form to enter student details such as name, age, grade, and registration date.
-   - Click "Register" to save the information to the database.
+### Configure Database Connection
 
-3. **View and Export Records**
-   - Select a student record to view details.
-   - Click "Generate PDF" to create and save a PDF document of the student’s information locally.
+Adjust the `config` class to include your database's connection details.
 
-## Database Configuration
+### Run the Application
 
-Make sure your MySQL database configuration matches the settings below in your Java code:
+Compile and run the application using your IDE or command line.
 
-- **Database URL:** `jdbc:mysql://localhost:3306/student_registration`
-- **Username:** `your_database_username`
-- **Password:** `your_database_password`
